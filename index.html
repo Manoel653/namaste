@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfil Adarsh</title>
+    <!-- Tailwind + DaisyUI via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        plugins: [daisyui],
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/daisyui"></script>
+  </head>
+  <body class="relative min-h-screen bg-gray-100">
+    <!-- Background Placeholder -->
+    <div class="absolute inset-0 -z-10">
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/002/597/561/non_2x/abstract-seamless-dark-grey-halftone-lattice-pattern-on-black-background-luxury-and-elegant-pattern-you-can-use-for-cover-brochure-template-poster-banner-web-print-ad-etc-illustration-vector.jpg"
+        alt="Background Placeholder"
+        class="w-full h-full object-cover"
+      />
+    </div>
+
+    <!-- Conteúdo com z-index acima -->
+    <div class="relative z-10">
+      <!-- Cabeçalho -->
+      <header class="bg-white w-full shadow p-4 flex justify-between items-center">
+        <!-- Logo -->
+        <div class="flex items-center">
+          <img src="https://cdn.prod.website-files.com/65c14454c8e90beca1ee629a/6714b6c7f84bbe3ce6a3762a_Wall%20of%20Portfolios%20Logo.svg" alt="Logo" class="h-10 w-auto" />
+        </div>
+
+        <!-- Botões do menu -->
+        <div class="flex items-center gap-4">
+          <button class="btn btn-ghost text-sm">Portfolios</button>
+          <button class="btn btn-ghost text-sm">Case Studies</button>
+          <button class="btn btn-sm bg-black text-white hover:bg-black">Submit Portfolio</button>
+        </div>
+      </header>
+
+      <!-- Conteúdo principal -->
+        <div class="flex gap-6 mt-6">
+          <!-- Card Lateral Esquerdo -->
+          <div class="w-80 bg-white shadow p-20 flex flex-col items-center gap-3">
+           <!-- Imagem Circular -->
+<div class="relative rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 overflow-hidden">
+  <img
+    src="https://cdn.prod.website-files.com/65c14454c8e90beca1ee62a8/67d51102ec1d83a11ea4cb6a_Adarsh%20Singh%20-%20Wall%20of%20Portfolios-p-500.avif"
+    alt="Avatar Adarsh"
+    class="object-cover w-full h-full"
+  />
+</div>
+
+
+            <!-- Nome -->
+            <h2 class="text-xl font-bold">Adarsh</h2>
+
+            <!-- Arroba e localização -->
+            <div class="text-center text-sm text-gray-600 flex items-center gap-2">
+              <span>@adarsh</span>
+              <span class="flex items-center gap-1 text-gray-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                  viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M17.657 16.657L13.414 20.9a1 1 0 01-1.414 0l-4.243-4.243a8 8 0 1111.314 0z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                <span>India</span>
+              </span>
+            </div>
+
+            <!-- Profissão e Experiência -->
+            <p class="text-sm mt-2">Product Designer</p>
+            <p class="text-sm text-gray-400">4 years experience</p>
+
+            <!-- Linha divisória -->
+            <div class="w-full border-t border-gray-200 my-4"></div>
+
+            <!-- Botões -->
+            <div class="flex justify-between w-full gap-2">
+              <button class="btn btn-sm btn-outline w-1/2">Profile</button>
+              <button class="btn btn-sm btn-outline w-1/2">Portfolio</button>
+            </div>
+          </div>
+
+          <!-- Card Horizontal do Meio -->
+          <div class="flex-1 relative">
+            <div class="relative bg-white rounded-xl overflow-hidden shadow h-48 w-full">
+              <!-- Imagem Placeholder -->
+              <img
+                src="https://framerusercontent.com/images/kCncpimsrQqRJRkWTEtBJxPzr4.jpg"
+                alt="Placeholder"
+                class="object-cover w-full h-full"
+              />
+
+              <!-- Caixa flutuante sobre a imagem -->
+              <div
+                class="absolute top-4 left-1/2 transform -translate-x-1/2 bg-white bg-opacity-80 backdrop-blur rounded-xl px-4 py-2 flex justify-between items-center gap-4 w-[80%] shadow-md"
+              >
+                <!-- Botões Esquerda -->
+                <div class="flex gap-2">
+                  <button class="btn btn-xs btn-outline">Btn 1</button>
+                  <button class="btn btn-xs btn-outline">Btn 2</button>
+                </div>
+
+                <!-- Botão central redondo -->
+                <div class="rounded-full bg-gray-800 w-8 h-8 flex items-center justify-center text-white text-xs">
+                  ?
+                </div>
+
+                <!-- Botões Direita -->
+                <div class="flex gap-2">
+                  <button class="btn btn-xs btn-outline">Btn 3</button>
+                  <button class="btn btn-xs btn-outline">Btn 4</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Espaço da direita (reservado) -->
+          <div class="w-1/3 bg-transparent"></div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
